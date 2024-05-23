@@ -19,6 +19,7 @@
     background-color: #fff; /* fundo branco */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Define a posição relativa para a imagem "omega.png" */
   }
   h1, h2 {
     color: #007bff; /* título azul atraente */
@@ -37,13 +38,26 @@
     height: auto; /* Altura automática para manter a proporção */
     border-radius: 5px;
   }
+  .bottom-image {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    width: 80%; /* Ajusta a largura da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px;
+  }
+  hr {
+    border: 1px solid black;
+  }
+  small {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
 </style>
 </head>
 <body>
 
 <div class="container">
-
-
   <h1>Alinhamento de Sequências Múltiplas (MSA) </h1>
   <div class="content-box">
     <h2>Qual o propósito e o contexto biológico deste processo?</h2>
@@ -61,8 +75,9 @@
 
 <img src="imagens/alinhamento.jpg" alt="Imagem no final da página" class="bottom-image">
 
-<hr style="border: 1px solid black">
+<hr>
 
 <small><a href="index.html">Voltar ao Menu Principal</a></small>
+
 </body>
 </html>
