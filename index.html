@@ -17,15 +17,34 @@
         }
         .project-steps {
             margin-top: 50px;
+            list-style: none;
+            padding: 0;
         }
-        .project-steps a {
-            display: block;
-            margin: 5px 0;
+        .project-steps li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #007BFF;
+            border-radius: 5px;
+            background-color: #E9F7FF;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+        .project-steps li:hover {
+            background-color: #D0EFFF;
+        }
+        .project-steps li a {
             color: #007BFF;
             text-decoration: none;
+            flex-grow: 1;
+            padding-left: 10px;
         }
-        .project-steps a:hover {
+        .project-steps li a:hover {
             text-decoration: underline;
+        }
+        .project-steps li i {
+            font-size: 20px;
+            color: #007BFF;
         }
         h1, h2 {
             text-align: center;
@@ -43,6 +62,7 @@
             margin-top: 20px;
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
@@ -58,18 +78,19 @@
 <img src="imagens/imagemapoe1.png" alt="Imagem do BLASTp">
 
 <h2>Etapas do Projeto</h2>
-<div class="project-steps">
-    <a href="etapa1.html">Caracterização do Gene</a>
-    <a href="etapa2.html">Sequências Homólogas</a>
-    <a href="etapa3.html">Alinhamento de Sequências Múltiplas (MSA)</a>
-    <a href="etapa4.html">Árvore Filogenética</a>
-    <a href="etapa5.html">Interpretação de Resultados</a>
-    <a href="etapa6.html">Ferramentas Utilizadas</a>
-</div>
+<ul class="project-steps">
+    <li><i class="fas fa-dna"></i><a href="etapa1.html">Caracterização do Gene</a></li>
+    <li><i class="fas fa-seedling"></i><a href="etapa2.html">Sequências Homólogas</a></li>
+    <li><i class="fas fa-align-left"></i><a href="etapa3.html">Alinhamento de Sequências Múltiplas (MSA)</a></li>
+    <li><i class="fas fa-tree"></i><a href="etapa4.html">Árvore Filogenética</a></li>
+    <li><i class="fas fa-chart-bar"></i><a href="etapa5.html">Interpretação de Resultados</a></li>
+    <li><i class="fas fa-tools"></i><a href="etapa6.html">Ferramentas Utilizadas</a></li>
+</ul>
 
 <hr>
 <small>Trabalho no âmbito da UC Laboratórios de Bioinformática.</small>
 
 </body>
 </html>
+
 
