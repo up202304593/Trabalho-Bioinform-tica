@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interpretação e Resultados</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* fundo azul claro */
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2 {
+    color: #007bff; /* título azul atraente */
+  }
+  p {
+    color: #333;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Interpretação e Resultados</h1>
+  <div class="content-box">
+    <h2>Alinhamento de Sequências de Proteínas Homólogas do Gene APOE</h2>
+    <p>O <b>alinhamento das sequências de proteínas homólogas</b> do gene APOE em diferentes organismos revela uma alta conservação, especialmente nas regiões funcionais críticas da proteína.</p>
+
+<h3>Região N-terminal</h3>
+<p>A região N-terminal, que compreende os primeiros 33 resíduos, mostra uma sequência central extremamente conservada: <code>"MKVLWAALLVTFLAGCQAKVE"</code>. As principais variações ocorrem fora desta região central, com alguns alelos apresentando extensões ou inserções antes desta sequência, como observado em XP_030651577.1 e XP_055107159.2.</p>
+
+<h3>Região Intermédia</h3>
+<p>Na região intermédia, que abrange os resíduos 34 a 93, também há uma alta conservação, com apenas algumas variações pontuais. Estas variações incluem a substituição de glutamina (Q) por treonina (T) e a presença de resíduos de lisina (K) em diferentes posições em algumas sequências.</p>
+
+<h3>Região C-terminal</h3>
+<p>A região C-terminal, que vai do resíduo 94 ao 317, continua a mostrar alta conservação, particularmente nos domínios <code>"QAAQARLGADMEDVRGRLVQYRGEVQAMLGQSTEELRA"</code>. Pequenas variações, como a substituição de serina (S) por alanina (A), podem refletir adaptações funcionais ou estruturais específicas.</p>
+
+<h2>Conservação e Variações das Sequências</h2>
+<p>As regiões altamente conservadas do gene APOE indicam a presença de domínios funcionais essenciais para a proteína ApoE em todos os organismos analisados. As sequências <code>"MKVLWAALLVTFLAGCQAKVE"</code> e <code>"RLASHLRKLRKRLLRDADDLQKRLAVYQAGAREGAERGVSAIRERLGPLVEQGRVRAATV"</code> são quase idênticas em todas as sequências, mostrando a sua importância vital.</p>
+
+<p>As variações específicas, como extensões na região N-terminal e substituições de aminoácidos, podem indicar adaptações específicas de espécies ou variações isoformas do gene APOE. Substituições como <code>"Q"</code> por <code>"T"</code> ou <code>"R"</code> por <code>"S"</code> podem afetar a estrutura da proteína ou a sua interação com outras moléculas, refletindo diferentes funções biológicas ou necessidades fisiológicas dos organismos.</p>
+
+<h2>Importância da Alta Conservação</h2>
+<p>A alta conservação das sequências críticas entre espécies sugere que estas regiões são essenciais para a sobrevivência, e qualquer mudança significativa nestas áreas pode ser prejudicial. As variações menores observadas indicam adaptações evolutivas, permitindo uma melhor adequação ao ambiente específico ou a funções fisiológicas particulares.</p>
+
+<h2>Função da Proteína Apolipoproteína E (ApoE)</h2>
+<p>A proteína Apolipoproteína E (ApoE) é crucial no metabolismo dos lípidos, desempenhando um papel importante na redistribuição dos lípidos entre células e tecidos. Alterações na sequência de ApoE podem afetar a sua ligação com receptores lipoproteicos e o transporte de colesterol e outros lípidos.</p>
+
+<p>As observações deste estudo são fundamentais para entender tanto a funcionalidade essencial da ApoE como a sua variabilidade entre diferentes organismos.</p>
+
+
+  </div>
+</div>
+
+<hr style="border: 1px solid black">
+
+<small>[**Voltar ao Menu inicial**](README.md)</small>
+
+</body>
+</html>

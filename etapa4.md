@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Árvore Filogenética</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* fundo azul claro */
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Necessário para o posicionamento absoluto da imagem dentro da caixa */
+  }
+  h1, h2 {
+    color: #007bff; /* título azul atraente */
+  }
+  p {
+    color: #333;
+  }
+  .content-box {
+    position: relative;
+  }
+  .content-box img.top-right {
+    position: absolute;
+    top: -90px;
+    right: 10px;
+    width: 200px; /* ajusta o tamanho da imagem conforme necessário */
+    height: auto;
+  }
+  .bottom-image {
+    display: block;
+    margin: 40px auto 0;
+    width: 800px; /* ajusta o tamanho da imagem conforme necessário */
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Árvore Filogenética</h1> 
+  <div class="content-box">
+    <img src="imagens/evolucao.png" alt="Imagem no canto superior direito" class="top-right">
+    <h2>Construção e Interpretação</h2>
+
+---
+<p><b>Árvore Filogenética:</b> Uma árvore filogenética é uma representação gráfica das relações evolutivas entre diferentes espécies ou genes. Ela é construída com base em dados genéticos, como sequências de DNA, RNA ou proteínas, e pode fornecer informações valiosas sobre a história evolutiva e a divergência entre os organismos.</p>
+
+---
+
+<p><b>Propósito:</b> A construção de árvores filogenéticas ajuda a entender como as espécies estão relacionadas umas com as outras e a identificar padrões de ancestralidade comum. Essas árvores podem ser usadas para estudar a evolução de características específicas, identificar homólogos entre diferentes espécies, e explorar a biodiversidade.</p>
+
+---
+
+<p><b>Métodos:</b> Existem vários métodos para construir árvores filogenéticas, incluindo o método de máxima verossimilhança, máxima parcimônia, e métodos baseados em distância, como o vizinho-mais-próximo (Neighbor-Joining). Cada método tem suas vantagens e limitações, e a escolha do método pode depender do tipo de dados e da pergunta de pesquisa.</p>
+
+---
+
+<p><a href="https://itol.embl.de/tree/871968118113881714733500" target="_blank">Saiba mais sobre a árvore filogenética do Gene APOE</a></p>
+
+---
+
+<p><b>Interpretação:</b> A interpretação de uma árvore filogenética envolve a leitura dos nós, que representam os pontos de divergência entre diferentes linhagens, e os ramos, que mostram a relação evolutiva. A distância entre os nós pode indicar o grau de divergência genética entre as espécies ou genes analisados.</p>
+
+<p>A <b>análise filogenética</b> é uma ferramenta poderosa em biologia evolutiva, genética e estudos de biodiversidade, proporcionando uma compreensão mais profunda da história e das conexões entre os organismos.</p>
+  </div>
+</div>
+
+<img src="imagens/arvore.png" alt="Imagem no final da página" class="bottom-image">
+
+<hr style="border: 1px solid black">
+
+<small>[**Voltar ao Menu inicial**](README.md)</small>
+</body>
+</html>

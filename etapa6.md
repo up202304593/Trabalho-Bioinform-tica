@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ferramentas Utilizadas</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* fundo azul claro */
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2, h3 {
+    color: #007bff; /* título azul atraente */
+  }
+  p {
+    color: #333;
+  }
+  .tool-section {
+    margin-bottom: 30px;
+  }
+  .tool-section img {
+    float: right;
+    margin-left: 20px;
+    width: 100px; /* largura da imagem */
+    height: auto; /* manter proporção */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Ferramentas Utilizadas</h1>
+
+  <div class="tool-section">
+    <h2>PubMed</h2>
+    <img src="imagens/pubmed.png" alt="Imagem PubMed">
+    <p><b>Descrição:</b> Ferramenta de busca de literatura científica e médica atualizada. Utilizado para localizar artigos e revisões relevantes sobre o gene APOE.</p>
+    <p><b>Método de Pesquisa:</b></p>
+    <p>Palavras-chave: "APOE gene", "Apolipoprotein E"</p>
+    <p><b>Objetivo:</b> Identificar estudos prévios sobre a estrutura, função e doenças associadas ao gene APOE.</p>
+  </div>
+
+  <div class="tool-section">
+    <h2>NCBI</h2>
+    <img src="imagens/ncbi.png" alt="Imagem NCBI">
+    <p><b>Descrição:</b> O NCBI (National Center for Biotechnology Information) fornece ferramentas para análise de dados genómicos e facilita a pesquisa biomédica. Usa como recursos o PubMed e o GenBank, que é um banco de dados de sequências genéticas.</p>
+    <p><b>Método de Pesquisa:</b></p>
+    <p>Pesquisa de Sequências: Inserção de "APOE" no campo de pesquisa para obter sequências de DNA, mRNA e proteínas associadas ao gene.</p>
+    <p>Filtros: Seleção da espécie humana (Homo sapiens), tipo de sequência (nucleotídica ou proteica).</p>
+    <p><b>Objetivo:</b> Obter a sequência completa do gene APOE e suas variantes.</p>
+  </div>
+
+  <div class="tool-section">
+    <h2>Prosite</h2>
+    <img src="imagens/prosite.png" alt="Imagem Prosite">
+    <p><b>Descrição:</b> Prosite é uma ferramenta que serve para identificar e caracterizar sequências de proteínas, como por exemplo, identificação de motifs e análise funcional de proteínas.</p>
+    <p><b>Método de Pesquisa:</b></p>
+    <p>Input de Sequência: Inserção da sequência proteica do APOE obtida do NCBI.</p>
+    <p>Tipo de Análise: Identificação de domínios funcionais e motifs conservados.</p>
+    <p><b>Objetivo:</b> Determinar os domínios funcionais da proteína APOE e prever suas funções biológicas.</p>
+  </div>
+
+  <div class="tool-section">
+    <h2>Genome Browser</h2>
+    <img src="imagens/genomebrowser.png" alt="Imagem Genome Browser">
+    <p><b>Descrição:</b> UCSC Genome Browser é uma ferramenta que permite a visualização de genomas completos e anotações detalhadas (como localização de genes, elementos regulatórios).</p>
+    <p><b>Método de Pesquisa:</b></p>
+    <p>Gene: APOE</p>
+    <p>Organismo: Seleção de Homo sapiens</p>
+    <p><b>Objetivo:</b> Visualizar a localização do gene APOE no genoma humano e explorar suas regiões regulatórias e variantes.</p>
+  </div>
+
+  <div class="tool-section">
+    <h2>BLAST-p</h2>
+    <img src="imagens/blastp.png" alt="Imagem BLAST-p">
+    <p><b>Descrição:</b> BLAST-p é uma ferramenta usada para comparar uma sequência de proteína com um banco de dados de sequências.</p>
+    <p><b>Método de Pesquisa:</b></p>
+    <p>Input de Sequência: Sequência proteica do APOE.</p>
+    <p><b>Objetivo:</b> Identificar sequências proteicas similares ao APOE em outras espécies e estudar a sua conservação evolutiva, e selecionar 10 sequências de espécies distintas.</p>
+  </div>
+
+  <div class="tool-section">
+    <h2>Clustal Omega</h2>
+    <img src="imagens/omega.png" alt="Imagem Clustal Omega">
+    <p><b>Descrição:</b> Clustal Omega é uma ferramenta para realizar alinhamentos múltiplos de sequências de proteínas ou nucleotídeos.</p>
+    <p><b>Método de Pesquisa:</b></p>
+    <p>Input de Sequências: Lista das sequências proteicas de APOE escolhidas na ferramenta anterior.</p>
+    <p><b>Objetivo:</b> Alinhar sequências de APOE para identificar regiões conservadas e analisar variações evolutivas.</p>
+  </div>
+
+  <div class="tool-section">
+    <h2>iTOL</h2>
+    <img src="imagens/itol.png" alt="Imagem iTOL">
+    <p><b>Descrição:</b> iTOL (Interactive Tree Of Life) é uma ferramenta online para visualização, anotação e gestão de árvores filogenéticas.</p>
+    <p><b>Método de Pesquisa:</b></p>
+    <p>Input de Árvores: Árvore filogenética gerada a partir dos alinhamentos de Clustal Omega.</p>
+    <p><b>Objetivo:</b> Visualizar a árvore filogenética do gene APOE, destacando as relações evolutivas entre diferentes espécies.</p>
+  </div>
+</div>
+
+<hr style="border: 1px solid black">
+
+<small>[**Voltar ao Menu inicial**](README.md)</small>
+
+</body>
+</html>

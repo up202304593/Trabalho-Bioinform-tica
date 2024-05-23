@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sequências Homólogas</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* fundo azul claro */
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2 {
+    color: #007bff; /* título azul atraente */
+  }
+  p {
+    color: #333;
+  }
+  .content-box {
+    position: relative; /* Define a posição relativa para que possamos posicionar a imagem absolutamente dentro dela */
+  }
+  .content-box img {
+    position: absolute; /* Define a posição absoluta para que possamos posicionar a imagem exatamente onde queremos */
+    top: -60px; /* Distância do topo da div (um pouco mais acima) */
+    right: 10px; /* Distância da direita da div */
+    width: 200px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 5px;
+  }
+  .bottom-image {
+    display: block;
+    margin: 40px auto 0;
+    width: 800px; /* ajusta o tamanho da imagem conforme necessário */
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<div class="container"> 
+  <h1>Sequências Homólogas</h1> 
+  <div class="content-box"> 
+    <h2>Identificação e Interpretação de Sequências Homólogas</h2>
+    <p><b>Identificação de homólogos:</b> O BLASTp permite identificar proteínas semelhantes à proteína de interesse em diferentes organismos. Essas proteínas semelhantes, conhecidas como homólogos, podem compartilhar uma origem evolutiva comum e, portanto, podem ter funções semelhantes ou relacionadas.
+
+<b>Análise funcional:</b> Ao identificar homólogos em diferentes espécies, podemos inferir informações sobre a função da proteína de interesse com base nas funções conhecidas dos homólogos. Por exemplo, se uma proteína em humanos tem homólogos em várias outras espécies que estão envolvidos na regulação do metabolismo de lipídios, podemos inferir que a proteína humana também pode ter uma função semelhante.
+
+<b>Evolução molecular:</b> Comparar homólogos entre diferentes espécies pode fornecer insights sobre a evolução molecular das proteínas ao longo do tempo. Por exemplo, podemos identificar regiões conservadas na sequência de proteína que são importantes para a sua função e que foram mantidas ao longo da evolução.
+
+A <b>seleção de homólogos de K (=10)</b> espécies diferentes da espécie Homo sapiens permite ampliar a diversidade taxonômica dos homólogos analisados, o que pode fornecer uma visão mais abrangente da conservação evolutiva e das possíveis funções da proteína de interesse. Isso pode ser útil para estudos de biologia comparativa, evolução molecular e investigações funcionais.</p>
+
+<img src="imagens/blastp.png" alt="Imagem do BLASTp">
+
+  </div>
+</div>
+
+<img src="imagens/transcritos.jpg" alt="Imagem no final da página" class="bottom-image">
+
+<hr style="border: 1px solid black">
+
+<small>[**Voltar ao Menu inicial**](README.md)</small>
+</body>
+</html>

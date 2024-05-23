@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sequências Homólogas</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* fundo azul claro */
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2 {
+    color: #007bff; /* título azul atraente */
+  }
+  p {
+    color: #333;
+  }
+  .content-box {
+    position: relative; /* Define a posição relativa para que possamos posicionar a imagem absolutamente dentro dela */
+  }
+  .content-box img {
+    position: absolute; /* Define a posição absoluta para que possamos posicionar a imagem exatamente onde queremos */
+    top: -80px; /* Distância do topo da div (um pouco mais acima) */
+    right: 25px; /* Distância da direita da div */
+    width: 120px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+
+  <h1>Alinhamento de Sequências Múltiplas (MSA) </h1>
+  <div class="content-box">
+    <h2>Qual o propósito e o contexto biológico deste processo?</h2>
+    <p><b>Comparação de sequências:</b> O MSA permite comparar a sequência de proteínas de interesse com as sequências de seus homólogos, bem como com outras proteínas relacionadas. Isso ajuda a identificar padrões de conservação e variação ao longo das sequências.
+
+<b>Identificação de regiões conservadas:</b> O alinhamento revela regiões que são conservadas entre as sequências, o que sugere que essas regiões desempenham funções importantes. Essas regiões conservadas podem incluir motivos funcionais, sítios de ligação a ligantes, sítios ativos e outras características estruturais ou funcionais essenciais da proteína.
+
+<b>Análise estrutural e funcional:</b> O MSA ajuda a entender a estrutura e a função das proteínas comparadas, destacando as regiões que são altamente conservadas. Isso pode fornecer insights sobre a função molecular, a interação com outros componentes celulares e a evolução das proteínas.
+
+<b>Validação de homologia:</b> O alinhamento de sequências múltiplas também pode ser usado para validar a homologia entre as proteínas. Se as regiões conservadas forem identificadas em várias espécies, isso fortalece a evidência de que as proteínas são verdadeiros homólogos e compartilham uma ancestralidade comum.</p>
+
+<img src="imagens/omega.png" alt="Imagem do BLASTp">
+  </div>
+</div>
+
+<img src="imagens/alinhamento.jpg" alt="Imagem no final da página" class="bottom-image">
+
+<hr style="border: 1px solid black">
+
+<small>[**Voltar ao Menu inicial**](README.md)</small>
+</body>
+</html>
