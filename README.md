@@ -26,7 +26,7 @@
 ---
 
 
-> ### [**Caracterização do Gene**](etapa1.md)
+> ### [**Caracterização do Gene**](etapa1.html)
 
 > ### [**Sequências Homólogas**](etapa2.md)
 
